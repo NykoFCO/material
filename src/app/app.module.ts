@@ -7,6 +7,7 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
 import { AboutComponent } from './componentes/about/about.component';
 import { MiportfolioComponent } from './componentes/miportfolio/miportfolio.component';
 import { ContactameComponent } from './componentes/contactame/contactame.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactameComponent } from './componentes/contactame/contactame.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
